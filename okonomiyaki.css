@@ -1,0 +1,81 @@
+body{
+  background-color: slateblue;
+}
+
+/*This helped shape the outcome of the header and display picture*/
+h1{
+  font-size: 28px;
+  color:red;
+  border-color: red;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 43.5%;
+  margin-right: 43%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: dotted;
+  border-radius: 70px;
+  border-width: 3px;
+}
+/*This gives a font and color to p tag*/
+p{
+  color: mediumspringgreen;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*This gives a font and color to h2~h6 tag*/
+h2, h3, h4, h5, h6{
+  color:mediumspringgreen;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*This helped center, round, and color the border of the img*/
+img{
+  border: 5px solid red;
+  border-radius: 50%;
+  border-width: 3px;
+  margin-left: 37.8%;
+  margin-right: 44%;
+}
+
+/*This is what makes the scroll-img and background 
+  look the way it's supposed to. Opacity changes the color to be transparent*/
+.box1, .box2, .box3, .box4{
+  background: red;
+  padding: 9rem;
+  background-image: url(../odin-recipes/recipe-images/recipe-img.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.6 ;
+  background-size: 1240px;
+  background-position: -6.7cm -3.65cm;
+  width:100%;
+  background-blend-mode:luminosity;
+  background-image: relative;
+  padding-top: -15px;
+  padding-bottom: -15px;
+}
+
+
+.box5{
+  background: red;
+  padding: 9rem;
+  background-image: url(../odin-recipes/recipe-images/recipe-img.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.6 ;
+  background-size: 2600px;
+  background-position: -14.1cm -6.65cm;
+  width:100%;
+  background-blend-mode:luminosity;
+  background-image: relative;
+  padding-top: -15px;
+  padding-bottom: -15px;
+}
+
+
+
+
+li,ul{
+  color:mediumseagreen;
+  font-family: 'Times New Roman', Times, Sans-serif;
+  font-size: 16px;
+}
+

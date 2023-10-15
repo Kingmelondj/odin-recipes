@@ -1,0 +1,62 @@
+body{
+  background-color: slateblue;
+}
+
+h1{
+  font-size: 33px;
+  color:rgb(105, 198, 255);
+  border-color: violet;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 43.5%;
+  margin-right: 43%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: dotted;
+  border-radius: 70px;
+  border-width: 3px;
+  text-transform: uppercase;
+}
+
+
+/*.a1~etc. a href links*/
+.a1, .a2, .a3:{
+  color: mediumspringgreen;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* visited link */
+.a1:visited, .a2:visited, .a3:visited{
+  color: rgb(105, 198, 255);
+}
+
+/*changes link color when hovered on*/
+.a1:hover, .a2:hover, .a3:hover{
+  color:violet;
+  
+}
+/* changes the link color when clicked*/
+.a1:active, .a2:active, .a3:active{
+  color: grey;
+}
+
+.a1{
+  margin-left: 14.5%;
+  margin-right: 19%;
+  font-size: 25px;
+}
+
+.a2{
+  margin-right: 17%;
+  font-size: 25px;
+}
+
+.a3{
+  font-size: 25px;
+}
