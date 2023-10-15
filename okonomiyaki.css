@@ -1,32 +1,91 @@
-body{
-  background-color: slateblue;
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:content-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-/*This helped shape the outcome of the header and display picture*/
-h1{
-  font-size: 28px;
+.blossoms::before{
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../odin-recipes/recipe-images/cherryblossom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .24;
+}
+
+body{
+  background-color:violet;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+  }
+
+
+
+/*This helped shape the outcome of the h1 and display picture*/
+.neon{
+  font-size: 35px;
   color:red;
   border-color: red;
-  margin: 2rem auto;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  margin-left: 43.5%;
+  margin: 3rem auto;
+  margin-left: 45%;
   margin-right: 43%;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: -5px;
+  padding-bottom:-5px;
   border-style: dotted;
-  border-radius: 70px;
-  border-width: 3px;
+  border-radius: 68px;
+  border-width: 53px;
+  transform: translate(-65%,-26%);
+  color: #fff;
+  text-shadow: 0 0 20px #ff005b;
+  padding: 0 6px;
 }
+
+.neon::after{
+  content: attr(data-text);
+  z-index: -1;
+  color:#ff005b;
+  filter: blur(3px);
+  top: -15px;
+  bottom: 40px;
+  padding: 20px 43px;
+  position: fixed;
+}
+
+.neon::before{
+  content:'';
+  background: #fe3a80;
+  z-index: -2;
+  opacity: .5;
+  filter:blur(5px);
+  padding: 0 17px;
+}
+
+h2{
+  text-align: center;
+}
+
 /*This gives a font and color to p tag*/
-p{
+p, h4{
   color: mediumspringgreen;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: center;
+  
 }
 /*This gives a font and color to h2~h6 tag*/
 h2, h3, h4, h5, h6{
   color:mediumspringgreen;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  
 }
 /*This helped center, round, and color the border of the img*/
 img{
@@ -35,6 +94,7 @@ img{
   border-width: 3px;
   margin-left: 37.8%;
   margin-right: 44%;
+  margin-bottom: 60px;
 }
 
 /*This is what makes the scroll-img and background 
@@ -44,7 +104,7 @@ img{
   padding: 9rem;
   background-image: url(../odin-recipes/recipe-images/recipe-img.jpg);
   background-repeat: no-repeat;
-  opacity: 0.6 ;
+  opacity: 0.8 ;
   background-size: 1240px;
   background-position: -6.7cm -3.65cm;
   width:100%;
@@ -52,6 +112,8 @@ img{
   background-image: relative;
   padding-top: -15px;
   padding-bottom: -15px;
+  border-radius: 10%;
+  position: static;
 }
 
 
@@ -60,7 +122,7 @@ img{
   padding: 9rem;
   background-image: url(../odin-recipes/recipe-images/recipe-img.jpg);
   background-repeat: no-repeat;
-  opacity: 0.6 ;
+  opacity: 0.8;
   background-size: 2600px;
   background-position: -14.1cm -6.65cm;
   width:100%;
@@ -68,6 +130,8 @@ img{
   background-image: relative;
   padding-top: -15px;
   padding-bottom: -15px;
+  border-radius: 10%;
+  position: static;
 }
 
 
@@ -75,7 +139,7 @@ img{
 
 li,ul{
   color:mediumseagreen;
-  font-family: 'Times New Roman', Times, Sans-serif;
-  font-size: 16px;
+  font-size: 25px;
+  text-align: left;
 }
 
