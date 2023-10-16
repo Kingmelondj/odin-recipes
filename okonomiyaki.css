@@ -89,12 +89,13 @@ h2, h3, h4, h5, h6{
 }
 /*This helped center, round, and color the border of the img*/
 img{
-  border: 5px solid red;
+  border: 50px solid mediumseagreen;
   border-radius: 50%;
-  border-width: 3px;
-  margin-left: 37.8%;
-  margin-right: 44%;
+  border-width: 50px;
+  margin-left: 33.2%;
+  margin-right: 35%;
   margin-bottom: 60px;
+  border-style:double;
 }
 
 /*This is what makes the scroll-img and background 
@@ -115,6 +116,7 @@ img{
   border-radius: 10%;
   position: static;
 }
+
 
 
 .box5{
@@ -138,8 +140,17 @@ img{
 
 
 li,ul{
-  color:mediumseagreen;
-  font-size: 25px;
+  color:mediumspringgreen;
   text-align: left;
+  font-size: larger;
+  opacity: .9;
+  margin-top: 10px;
 }
+/*<!--l1 = li "list 1"-->*/
+.l1{
+  padding-top: 0%;
+  padding-bottom: 2%;
+  list-style-position: inside;
+}
+
 
