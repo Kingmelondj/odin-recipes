@@ -5,6 +5,13 @@
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+/*This gives a font and color to p tag*/
+.p1, .p2, .p3{
+  color: mediumspringgreen;
+  font-size: 50px;
+  text-align: center;
+}
+
 .blossoms::before{
   content: '';
   position: fixed;
@@ -24,14 +31,10 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: absolute;
   background-position: center;
   background-size:cover;
   }
-
-
-
-
 /*This helped shape the outcome of the h1 and display picture*/
 .neon{
   font-size: 35px;
@@ -73,24 +76,94 @@ body{
 
 h2{
   text-align: center;
+  font-size: 50px;
+  color:mediumspringgreen;
+  border: 20px solid red;
+  border-width: 100%;
+  margin-bottom: 80px;
+  margin-left: 8%;
+  margin-right: 10%;
+  padding: 10px;
+  border-radius: 20%;
 }
 
-/*This gives a font and color to p tag*/
-p, h4{
-  color: mediumspringgreen;
-  font-size: 25px;
-  text-align: center;
-  
-}
 /*This gives a font and color to h2~h6 tag*/
-h2, h3, h4, h5, h6{
+h3{
+  text-align: center;
+  font-size: 50px;
   color:mediumspringgreen;
-  font-size: 40px;
-  
+  border: 20px solid red;
+  border-width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 8%;
+  margin-right: 10%;
+  padding: 10px;
+  border-radius: 25%;
 }
+
+.h4{
+  text-align: center;
+  font-size: 50px;
+  color:mediumspringgreen;
+  border-width: 100%;
+  margin-bottom: 80px;
+  margin-left: 8%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+.h5{
+  text-align: center;
+  font-size: 50px;
+  color:mediumspringgreen;
+  border-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  margin-left: 8%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+h6{
+  text-align: center;
+  font-size: 50px;
+  color:mediumspringgreen;
+  border-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  margin-left: 8%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+.h7{
+  text-align: center;
+  font-size: 80px;
+  color:mediumspringgreen;
+  border-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  margin-left: 8%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+.h8{
+  text-align: center;
+  font-size: 80px;
+  color:mediumspringgreen;
+  border-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 8%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
 /*This helped center, round, and color the border of the img*/
 img{
-  border: 50px solid mediumseagreen;
+  border: 50px solid red;
   border-radius: 50%;
   border-width: 50px;
   margin-left: 33.2%;
@@ -102,74 +175,138 @@ img{
 /*This is what makes the scroll-img and background 
   look the way it's supposed to. Opacity changes the color to be transparent*/
 .box1{
-  margin-top: -10;
   background: red;
   padding: 9rem;
   background-image: url(../odin-recipes/recipe-images/recipe-img.jpg);
   background-repeat: no-repeat;
   opacity: 0.8 ;
-  background-size: 1350px;
-  background-position: -6.7cm -1.65cm;
+  background-size: 1240px;
+  background-position: -6.7cm -2.2cm;
   width:100%;
   background-blend-mode:luminosity;
-  background-image: relative;
+  background-image: absolute;
   padding-top: -15px;
   padding-bottom: -15px;
   border-radius: 10%;
-  position: static;
+  position:static;
+}
+
+#ul1{
+  margin-top: 50px;
+  margin-bottom: -15px;
+}
+
+.l1{
+  position: absolute;
+  transform: translateY(-110%);
+}
+.l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9{
+  margin-bottom: 2px;
+}
+/*<!--l1 = li "list 1"-->*/
+li,ul{
+  color:mediumspringgreen;
+  text-align: left;
+  font-size: 20px;
+  opacity: .9;
 }
 
 .box2{
-  margin-top: -10;
   background: red;
   padding: 9rem;
   background-image: url(../odin-recipes/recipe-images/recipe-img.jpg);
   background-repeat: no-repeat;
   opacity: 0.8 ;
-  background-size: 1350px;
-  background-position: -6.7cm -1.65cm;
+  background-size: 1235px;
+  background-position: -6.7cm -2.2cm;
   width:100%;
   background-blend-mode:luminosity;
-  background-image: relative;
+  background-image: absolute;
   padding-top: -15px;
   padding-bottom: -15px;
   border-radius: 10%;
-  position: static;
+  position:static;
 }
+
+#ol{
+  margin-top: 85px;
+}
+
+.ol1{
+  margin-top: -135px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.ol2{
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.ol3{
+  margin-bottom: 180px;
+  font-size: 20px;
+
+}
+
 .box3{
-  margin-top: -10;
   background: red;
   padding: 9rem;
   background-image: url(../odin-recipes/recipe-images/recipe-img.jpg);
   background-repeat: no-repeat;
   opacity: 0.8 ;
-  background-size: 1350px;
-  background-position: -6.7cm -1.65cm;
+  background-size: 1240px;
+  background-position: -6.7cm -2.2cm;
   width:100%;
   background-blend-mode:luminosity;
-  background-image: relative;
+  background-image: absolute;
   padding-top: -15px;
   padding-bottom: -15px;
   border-radius: 10%;
-  position: static;
+  position:static;
 }
+
+/**ul2 = unordered list 2, uli1 = unordered list 1 ~etc**/
+
+#ul2{
+  margin-top: -80px;
+  margin-bottom: 78px;
+}
+
+.uli1, .uli2, .uli3, .uli4{
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 33px;  
+}
+
 .box4{
-  margin-top: -10;
   background: red;
   padding: 9rem;
   background-image: url(../odin-recipes/recipe-images/recipe-img.jpg);
   background-repeat: no-repeat;
   opacity: 0.8 ;
-  background-size: 1350px;
-  background-position: -6.7cm -1.65cm;
+  background-size: 1240px;
+  background-position: -6.7cm -2.2cm;
   width:100%;
   background-blend-mode:luminosity;
-  background-image: relative;
+  background-image: absolute;
   padding-top: -15px;
   padding-bottom: -15px;
   border-radius: 10%;
-  position: static;
+  position:static;
 }
+
+/**ul3 = unordered list 3, ulist1 = unordered list 1 etc.-->**/
+#ul3{
+  margin-top: -85px;
+  margin-bottom: 50px;
+}
+
+.ulist1, .ulist2, .ulist3, .ulist4, .ulist5, .ulist6, .ulist7, .ulist8{
+  margin-top: 33px;
+  margin-bottom: -35px;
+  font-size: 33px;  
+}
+
 
 .box5{
   background: red;
@@ -177,33 +314,26 @@ img{
   background-image: url(../odin-recipes/recipe-images/recipe-img.jpg);
   background-repeat: no-repeat;
   opacity: 0.8;
-  background-size: 2600px;
-  background-position: -14.1cm -6.65cm;
+  background-size: 3000px;
+  background-position: -20cm -6.65cm;
   width:100%;
   background-blend-mode:luminosity;
-  background-image: relative;
+  background-image: absolute;
   padding-top: -15px;
   padding-bottom: -15px;
-  border-radius: 10%;
-  position: static;
-}
-
-
-
-
-li,ul{
-  color:mediumspringgreen;
-  text-align: left;
-  font-size: larger;
-  opacity: .9;
-  margin-top: 10px;
-}
-/*<!--l1 = li "list 1"-->*/
-.l1{
-  margin:0;
-  padding:0;
-  text-align: center;
   position: absolute;
-  top: 1265px;
 }
 
+#olist{
+  margin-top: 70px;
+  margin-bottom: 1px;
+}
+
+.olist1, .olist2, .olist3, .olist4, .olist5, .olist6, .olist7, 
+.olist8, .olist9, .olist10, .olist11, .olist12, .olist13, .olist14,
+.olist15, .olist16, .olist17, .olist18{
+  margin-top: 0px;
+  margin-bottom: 16px;
+  margin-left: 15px;
+  font-size:19px;  
+}  
